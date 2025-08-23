@@ -1,0 +1,6 @@
+@agende.ja_HostAddress = http://localhost:5011
+
+GET {{agende.ja_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
