@@ -13,10 +13,16 @@
     "https": {
       "commandName": "Project",
       "dotnetRunMessages": true,
-      "launchBrowser": false,
-      "applicationUrl": "https://localhost:7227;http://localhost:5011",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:8080",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DB_USER": "postgres",
+        "DB_NAME": "AgendeJa_Database",
+        "DB_PORT": "5432",
+        "DB_PASS": "123",
+        "DB_HOST": "localhost",
+        "JWT_SECRET": "YourVeryLongSecretKeyThatIsAtLeast32Chars"
       }
     }
   }
